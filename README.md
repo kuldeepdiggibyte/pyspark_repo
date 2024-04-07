@@ -116,3 +116,41 @@
 </html>
 
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PySpark Assignments</title>
+</head>
+<body>
+  <h1>PySpark Assignments</h1>
+  <h2>Question 5</h2>
+  <h3>Create DataFrames:</h3>
+  <p>Three DataFrames - employee_df, department_df, and country_df - have been created with dynamically defined custom schemas.</p>
+  <p>Each DataFrame corresponds to employee data, department data, and country data, respectively.</p>
+  <h3>Average Salary of Each Department:</h3>
+  <p>The average salary of each department has been calculated using the employee_df DataFrame, providing insights into salary distribution.</p>
+  <h3>Employees Whose Names Start with 'M':</h3>
+  <p>Employees whose names start with the letter 'M' have been identified along with their respective department names, aiding in specific employee record retrieval.</p>
+  <h3>Bonus Calculation:</h3>
+  <p>A new 'bonus' column has been added to the employee_df DataFrame by multiplying the employee's salary by 2, representing the bonus amount for each employee.</p>
+  <h3>Reordering Column Names:</h3>
+  <p>The column names of the employee_df DataFrame have been reordered as per the specified sequence, enhancing data organization and readability.</p>
+  <h3>Join Operations:</h3>
+  <p>Inner join, left join, and right join operations have been dynamically performed between the employee_df and department_df DataFrames, yielding different results based on the specified join type.</p>
+  <h3>Update State to Country Name:</h3>
+  <p>The 'State' column in the employee_df DataFrame has been updated to display country names instead, enhancing geographical information clarity.</p>
+  <h3>Lowercase Column Names and Add Load Date:</h3>
+  <p>All column names in the DataFrame resulting from Question 7 have been converted to lowercase. Additionally, a new column named 'load_date' has been added with the current date, denoting data loading timestamps.</p>
+  <h3>About</h3>
+  <p>This repository contains all my PySpark assignments.</p>
+  <h3>Resources</h3>
+  <ul>
+    <li><a href="Readme">Readme</a></li>
+    <li><a href="Activity">Activity</a></li>
+  </ul>
+  <p>© 2024 GitHub, Inc.</p>
+</body>
+</html>
+
