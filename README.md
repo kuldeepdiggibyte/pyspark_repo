@@ -77,3 +77,42 @@
 </html>
 
 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PySpark Assignment</title>
+</head>
+<body>
+  <h1>PySpark Assignment</h1>
+  <h2>Question 4</h2>
+  <h3>Read JSON File:</h3>
+  <p>A dynamic function has been used to read the JSON file, allowing flexibility in handling various JSON file structures.</p>
+  <p>The DataFrame schema is printed and displayed to understand the data structure.</p>
+  <h3>Flatten DataFrame:</h3>
+  <p>The DataFrame has been flattened into a customized schema by utilizing the explode function on nested arrays.</p>
+  <p>The resulting DataFrame contains columns for each nested array element, offering a structured view of the data.</p>
+  <h3>Record Count Analysis:</h3>
+  <p>An analysis of the record count before and after flattening the DataFrame has been conducted to identify any disparities.</p>
+  <p>This analysis helps understand the impact of flattening on the overall record count.</p>
+  <h3>Explode and PosExplode Functions:</h3>
+  <p>The explode, explode outer, and posexplode functions have been applied to a sample DataFrame to demonstrate their differences.</p>
+  <p>Each function is illustrated with examples, and the resulting DataFrames are presented.</p>
+  <h3>Filtering by ID:</h3>
+  <p>Records with a specific ID value (1001) have been filtered from the DataFrame.</p>
+  <p>This filtering operation retrieves specific rows based on the provided condition.</p>
+  <h3>Convert Column Names:</h3>
+  <p>Column names in camel case have been converted to snake case for consistency and readability.</p>
+  <p>A custom function has been executed to perform this conversion, and the DataFrame with updated column names is shown.</p>
+  <h3>Add Load Date Column:</h3>
+  <p>A new column named 'load_date' has been added to the DataFrame, containing the current date for each record.</p>
+  <p>This column provides information about when the data was loaded into the DataFrame.</p>
+  <h3>Create Year, Month, and Day Columns:</h3>
+  <p>From the 'load_date' column, three new columns ('year', 'month', 'day') have been generated to extract the corresponding date components.</p>
+  <p>These columns facilitate further analysis and filtering based on specific date attributes.</p>
+</body>
+</html>
+
+
