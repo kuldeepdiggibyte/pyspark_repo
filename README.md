@@ -146,11 +146,8 @@
   <h3>About</h3>
   <p>This repository contains all my PySpark assignments.</p>
   <h3>Resources</h3>
-  <ul>
-    <li><a href="Readme">Readme</a></li>
-    <li><a href="Activity">Activity</a></li>
-  </ul>
-  <p>© 2024 GitHub, Inc.</p>
+  
+  
 </body>
 </html>
 
