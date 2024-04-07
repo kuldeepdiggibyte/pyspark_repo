@@ -146,6 +146,7 @@
   <h3>About</h3>
   <p>This repository contains all my PySpark assignments.</p>
   <h3>Resources</h3>
+  <p> Card number <br> nested json file</p>
   
   
 </body>
