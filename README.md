@@ -53,3 +53,27 @@
 </body>
 </html>
 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PySpark Assignment</title>
+</head>
+<body>
+  <h1>PySpark Assignment</h1>
+  <h2>Question 3</h2>
+  <h3>Column Names Modification:</h3>
+  <p>A custom function has dynamically modified the DataFrame's column names to 'log_id', 'user_id', 'user_activity', and 'time_stamp'.</p>
+  <p>The function iteratively renames the existing column names based on the specified new column names.</p>
+  <h3>Action Calculation Query:</h3>
+  <p>A query has been devised to calculate the count of actions performed by each user within the last 7 days.</p>
+  <p>The DataFrame is filtered to include only data from the past 7 days, then grouped by user_id to count the actions.</p>
+  <h3>Timestamp Conversion:</h3>
+  <p>The timestamp column has been converted into a new column named 'login_date' with the format YYYY-MM-DD and a Date data type.</p>
+  <p>This conversion enables easier handling and analysis of login date information.</p>
+</body>
+</html>
+
+
